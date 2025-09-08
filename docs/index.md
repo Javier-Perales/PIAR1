@@ -2,7 +2,7 @@
 title: Presentación PIAR I
 description: Presentación de la materia PIAR I
 ---
-# ¡Bienvenidos a PIAR I!
+# ¡Bienvenidos a PIAR 1!
 
 ¡Hola a todos y todas! ¡Bienvenidos a la asignatura optativa de **Inteligencia Artificial, Programación y Robótica I**!
 
@@ -15,20 +15,14 @@ Mirad a vuestro alrededor. La tecnología está en todas partes: en vuestros mó
 Para este curso se ha preparado un viaje a través de cuatro grandes misiones. Cada misión está diseñada para que podáis explorar diferentes aspectos de la programación, la inteligencia artificial y la robótica, siempre de forma práctica y divertida.
 
 - **Misión 1: Diseña tu propio videojuego Arcade 🎮**  
-  Tu reto será crear un videojuego sencillo, tipo *Pong* o un *Space Invaders* básico, utilizando el motor de videojuegos **Godot**.  
+  Tu reto será crear un videojuego sencillo, tipo *Pong* o un *Space Invaders* básico.  
   Pondrás a prueba tu capacidad de **programación** y **diseño creativo**.  
 
-- **Misión 2: Robot artista ✏️🤖**  
-  Aquí deberás montar un **robot móvil** sencillo y acoplarle un rotulador. El desafío será programarlo para que dibuje **figuras geométricas**.  
-  Reflexionaremos sobre si los resultados pueden considerarse "arte" y qué papel juega el programador.  
-  Pasamos de lo **virtual** a lo **tangible**.  
+- **Misión 2: El fantasma en la máquina 👻 💻**
+  Tu misión es entrenar un modelo de Inteligencia Artificial capaz de reconocer algo (gestos con la mano, dibujos, la voz) y usarlo como un nuevo sistema de control para el videojuego arcade creado en la misión 1.
 
-- **Misión 3: Robot artista 2.0 🧠🤖**  
-  ¿Y si el robot pudiera **decidir por sí mismo**?  
-  El reto consistirá en darle una **inteligencia básica**: por ejemplo, con una cámara o un sensor de color, el robot deberá detectar estímulos y tomar decisiones de forma autónoma.  
+- **Misión 3: Automata en pista 🚗**  
+  Deberás construir y programar un robot móvil (como un coche sigue líneas) capaz de navegar de forma autónoma por un circuito simple. Se validará primero en un simulador y luego se montará físicamente.
 
-- **Misión 4: Rescate Robótico guiado 🚑🤖**  
-  El gran desafío final. En equipos, vuestro robot-artista se enfrentará a un circuito de rescate para **localizar y salvar un objeto**.  
-  Pondréis en práctica todo lo aprendido en las misiones anteriores.  
-  Trabajo en equipo, estrategia y creatividad serán clave.  
-
+- **Misión 4: Ecosistema interactivo 🧠🤖**  
+  En equipos, deben combinar los tres proyectos anteriores en un único "ecosistema". Por ejemplo: el robot físico (SA3) se mueve por un tablero real, y su posición se replica en el videojuego (SA1), que a su vez es controlado por gestos (SA2).  

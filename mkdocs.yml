@@ -36,16 +36,16 @@ theme:
 
 # --- Navegación del Sitio (Aquí organizarás tus temas) ---
 nav:
-  - 'Programación didáctica': 'programacion.md'
+#  - 'Programación didáctica': 'programacion.md'
   - 'Presentación asignatura': 'index.md'
   - 'M1. Videojuego Arcade':
     - 'Reto 1: Inmersión y planificación': 'M1/m1f1.md'
-    - 'Reto 2: Construyendo los cimientos': 'M1/m1f2.md'
-    - 'Reto 3: ¡A programar!': 'M1/m1f3.md'
-    - 'Reto 4: Salón recreativo y reflexión': 'M1/m1f4.md'
-  - 'M2: Robot Artista': []
-  - 'M3: Robot Artista 2.0': []
-  - 'M4: Rescate Robótico': []
+    - 'Reto 2: Construyendo los cimientos': [] #'M1/m1f2.md'
+    - 'Reto 3: ¡A programar!': [] #'M1/m1f3.md'
+    - 'Reto 4: Salón recreativo y reflexión': [] #'M1/m1f4.md'
+  - 'M2: El fantasma en la máquina': []
+  - 'M3: Automata en pista': []
+  - 'M4: Ecosistema interactivo': []
 
 plugins:
   - search
