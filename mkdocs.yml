@@ -1,0 +1,66 @@
+# --- Configuración del Sitio ---
+site_name: Programación, IA y Robótica I
+site_author: Javier Perales
+site_url: https://javier-perales.github.io/PIAR1/ 
+site_description: Apuntes y materiales para la asignatura PIAR I.
+use_directory_urls: false
+# --- Configuración del Tema (Material for MkDocs) ---
+theme:
+  name: material
+  language: es
+  icon:
+    logo: material/robot-angry # O el que prefieras de https://materialdesignicons.com/
+  palette:
+    # Modo claro
+    - scheme: default
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    # Modo oscuro
+    - scheme: slate
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+  features:
+  #  - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - content.code.annotate
+
+
+# --- Navegación del Sitio (Aquí organizarás tus temas) ---
+nav:
+  - 'Programación didáctica': 'programacion.md'
+  - 'Presentación asignatura': 'index.md'
+  - 'M1. Videojuego Arcade':
+    - 'Reto 1: Inmersión y planificación': 'M1/m1f1.md'
+    - 'Reto 2: Construyendo los cimientos': 'M1/m1f2.md'
+    - 'Reto 3: ¡A programar!': 'M1/m1f3.md'
+    - 'Reto 4: Salón recreativo y reflexión': 'M1/m1f4.md'
+  - 'M2: Robot Artista': []
+  - 'M3: Robot Artista 2.0': []
+  - 'M4: Rescate Robótico': []
+
+plugins:
+  - search
+#  - with-pdf
+
+# --- Extensiones de Markdown ---
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list
+  - md_in_html
+  - pymdownx.tabbed:
+      alternate_style: true
