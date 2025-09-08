@@ -238,28 +238,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../programacion.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Programación didáctica
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../index.html" class="md-nav__link">
         
   
@@ -297,10 +275,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -313,8 +291,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_3">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             M1. Videojuego Arcade
           </label>
@@ -336,6 +314,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Reto 1: Inmersión y planificación
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="m1f1.html" class="md-nav__link md-nav__link--active">
         
   
@@ -347,6 +338,34 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#a11-arqueologia-arcade" class="md-nav__link">
+    <span class="md-ellipsis">
+      A1.1 Arqueología Arcade
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -515,6 +534,23 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#a11-arqueologia-arcade" class="md-nav__link">
+    <span class="md-ellipsis">
+      A1.1 Arqueología Arcade
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -530,13 +566,41 @@
 
 
 <h1 id="reto1-deconstruccion-y-analisis">Reto1. Deconstrucción y Análisis</h1>
-<p>En esta misión deberás diseñar y programar una versión sencilla de juegos icónicos como "Pong" o "Space Invaders". Aplicarás los fundamentos del pensamiento computacional para analizar un problema, descomponerlo en partes más pequeñas y desarrollar un algoritmo que lo resuelva, haciendo tangibles conceptos abstractos de la programación.</p>
-<p><a href="https://es.wikipedia.org/wiki/Historia_de_los_videojuegos">Wikipedia - Historia de los videojuegos</a></p>
-<p><a href="https://www.minijuegos.com/">Enlace videojuegos</a></p>
+<p>En esta misión deberás diseñar y programar una versión sencilla de juegos icónicos como "Pong" o "Space Invaders". Aplicarás los fundamentos del pensamiento computacional para analizar un problema, descomponerlo en partes más pequeñas y desarrollar un algoritmo que lo resuelva, haciendo tangibles conceptos abstractos de la programación. Pero tranquilo, vamos a empezar por el principio.</p>
+<h2 id="a11-arqueologia-arcade">A1.1 Arqueología Arcade</h2>
+<p>Antes de ponernos manos a la obra, es fundamental entender qué es un videojuego y cómo han evolucionado a lo largo del tiempo. Para ello, te propongo una pequeña investigación.</p>
 <div class="admonition question">
-<p class="admonition-title">A1.1 Arqueología Arcade</p>
-<p><a href="plantilla%20ac1.html">plantilla arqueología arcade</a></p>
+<p class="admonition-title">Tarea de investigación inicial</p>
+<p>Lo primero que vamos a hacer es ver un pequeño vídeo de introducción sobre la historia de los videojuegos. Puedes verlo en el siguiente enlace <a href="https://youtu.be/j1XYbI6JcXI?si=Iz-reoBNx9Hj55mj">Historia de los Videojuegos</a>.</p>
+<p>Realiza una investigación sobre los siguientes puntos:</p>
+<ol>
+<li>¿Qué es un videojuego arcade? Características principales.</li>
+<li>
+<p>Selecciona un videojuego arcade clásico de la siguiente lista y analiza los componentes fundamentales que forman un videojuego:  </p>
+<p>a. <strong>Objetivo:</strong> ¿Cuál es la meta del juego?<br />
+b. <strong>Objetos:</strong> ¿Qué personajes, enemigos y elementos interactivos hay?<br />
+c. <strong>Reglas:</strong> ¿Qué normas rigen el juego?<br />
+d. <strong>Dinámica de juego:</strong> ¿Cómo se gana o se pierde?</p>
+<ul>
+<li><a href="https://freepong.org/">Pong</a></li>
+<li><a href="https://freeinvaders.org/">Space Invaders</a></li>
+<li><a href="https://happyhopper.org/">Frogger</a></li>
+<li><a href="https://playclassic.games/games/arcade-dos-games-online/play-arkanoid-online/">Arkanoid</a></li>
+<li><a href="https://www.retrogames.cc/arcade-games/amidar.html">Aminar</a></li>
+</ul>
+</li>
+</ol>
 </div>
+<!--
+
+
+[Wikipedia - Historia de los videojuegos](https://es.wikipedia.org/wiki/Historia_de_los_videojuegos)
+
+[Enlace videojuegos](https://www.minijuegos.com/)
+
+!!! question "A1.1 Arqueología Arcade"
+    [plantilla arqueología arcade](./plantilla%20ac1.md)
+-->
 
 
 
