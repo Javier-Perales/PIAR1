@@ -39,7 +39,7 @@ nav:
 #  - 'Programación didáctica': 'programacion.md'
   - 'Presentación asignatura': 'index.md'
   - 'M1. Videojuego Arcade':
-    - 'Reto 1: Inmersión y planificación': 'M1/m1f1.md'
+    - 'Reto 1: Arqueología Arcade': 'M1/m1f1.md'
     - 'Reto 2: Construyendo los cimientos': [] #'M1/m1f2.md'
     - 'Reto 3: ¡A programar!': [] #'M1/m1f3.md'
     - 'Reto 4: Salón recreativo y reflexión': [] #'M1/m1f4.md'
