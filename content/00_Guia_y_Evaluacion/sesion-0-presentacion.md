@@ -17,9 +17,9 @@ Durante este curso dejaremos de ser simples usuarios y consumidores de tecnolog�
 
 El curso se divide en tres proyectos trimestrales basados en retos reales:
 
-![[../recursos/PIAR1 SdAs.excalidraw.dark.svg]]
+![[../recursos/PIAR1-SdAs.excalidraw.dark.svg]]
 
-![[../recursos/PIAR1 SdAs.excalidraw.light.svg]]
+![[../recursos/PIAR1-SdAs.excalidraw.light.svg]]
 
 ---
 ### 🕹️ Trimestre 1 — SdA 1: Arcade Retro Lab 

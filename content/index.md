@@ -7,12 +7,20 @@ description: Índice PIAR1. Se describe el contenido de las Situaciones de Apren
 fecha-creación: 04/09/2026
 otra: ñlsfklsdkf
 ---
-![[recursos/PIAR1 SdAs.excalidraw.light.svg]]
+![](recursos/PIAR1-SdAs.excalidraw.light.svg)
+
+
+
+![[recursos/PIAR1-SdAs.excalidraw.light.svg]]
 # 🚀 Programación, IA y Robótica 1 
 
 > **Marco de trabajo:** Misiones ágiles quincenales (4 sesiones de 55 min por misión) orientadas a la resolución de micro-retos prácticos y desarrollo colaborativo.
 > **Acceso rápido:** [[./00_Guia_y_Evaluacion/sesion-0-presentacion|sesion-0-presentacion]]
 > [[01_Materias/piar1/00_Guia_y_Evaluacion/sesion-0-presentacion]]
+
+>[!info]- Esto es una prueba
+> Lista desplegable
+> Vamos a ver si funciona
 
 
 ```python
