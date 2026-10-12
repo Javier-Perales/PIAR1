@@ -16,7 +16,7 @@ otra: ñlsfklsdkf
 
 ### 🕹️ Misión 1: Arcade Retro Lab — Videojuegos 2D con Scratch
 * **Reto 1.1:** [[sda1-arcade-scratch/R1.1 Personajes y Movimiento Cartesiano|Guion técnico, Personajes y Movimiento Cartesiano.]]
-* **Reto 1.2:** [[sda1-arcade-scratch/R1.2 Física del Juego y Controles|Física del Juego y Controles]]
+* **Reto 1.2:** [[sda1-arcade-scratch/R1.2 Controles del juego|Controles del juego]]
 * **Reto 1.3:** Patrullas enemigas, obstáculos y clonación.
 * **Reto 1.4:** Variables de marcador: vidas, puntuación y niveles.
 * **Reto 1.5:** Pulido sonoro, estética y licencias Creative Commons.
