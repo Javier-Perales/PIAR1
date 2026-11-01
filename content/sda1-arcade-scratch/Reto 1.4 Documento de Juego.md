@@ -1,0 +1,39 @@
+---
+title: "R1.4: Documento de Juego"
+sda: Misión 1. Videojuego Arcade
+tags:
+criterios_evaluacion:
+entregable: Archivo .sb3 o enlace Aules
+---
+> [!abstract] El Desafío
+> Elaborar un **Documento de Diseño del Juego** (*GDD* básico) que defina el funcionamiento del videojuego arcade, sus pantallas, personajes, escenarios, mecánicas, reglas y condiciones de victoria y derrota.
+
+# 1. Detective Arcade
+
+Antes de construir nuestro propio videojuego, vamos a ponernos la gabardina de investigador. Para entender cómo funciona una máquina, el primer paso es desmontarla pieza a pieza: eso es la ingeniería inversa.
+
+En esta actividad nos convertiremos en **Detectives Arcade**. Tu misión no será jugar por diversión, sino observar con ojo clínico un clásico de las recreativas: ¿qué hace el jugador en cada segundo? ¿Qué patrones siguen los enemigos? ¿Cómo premia o castiga el sistema cada acción?
+
+A través de esta autopsia interactiva extraeremos el **bucle de juego** original para, a partir de él, redactar nuestro propio **GDD (Game Design Document)**: el plano maestro que nos permitirá recrear o reinventar ese clásico desde cero.
+
+![](data:image/svg+xml;charset=utf-8,%3Csvg%20font-family%3D%22-apple-system-body%2C%20ui-sans-serif%2C%20-apple-system%2C%20system-ui%2C%20Segoe%20UI%2C%20Helvetica%2C%20Apple%20Color%20Emoji%2C%20Arial%2C%20sans-serif%2C%20Segoe%20UI%20Emoji%2C%20Segoe%20UI%20Symbol%22%20font-weight%3D%22400%22%20data-d-component%3D%22svg%22%20fill%3D%22currentColor%22%20style%3D%22color%3Argb\(13%2C%2013%2C%2013\)%22%20viewBox%3D%220%200%20340%20180%22%20width%3D%22100%25%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Crect%20x%3D%22105%22%20y%3D%228%22%20width%3D%22130%22%20height%3D%2235%22%20rx%3D%227%22%20fill%3D%22%2364748b%22%2F%3E%3Ctext%20x%3D%22170%22%20y%3D%2230%22%20text-anchor%3D%22middle%22%20font-size%3D%2212%22%20font-weight%3D%22bold%22%20fill%3D%22%23fff%22%3EINICIO%3C%2Ftext%3E%3Crect%20x%3D%22105%22%20y%3D%2272%22%20width%3D%22130%22%20height%3D%2235%22%20rx%3D%227%22%20fill%3D%22%230d9488%22%2F%3E%3Ctext%20x%3D%22170%22%20y%3D%2294%22%20text-anchor%3D%22middle%22%20font-size%3D%2212%22%20font-weight%3D%22bold%22%20fill%3D%22%23fff%22%3EBUCLE%20DE%20JUEGO%3C%2Ftext%3E%3Crect%20x%3D%2216%22%20y%3D%22137%22%20width%3D%22136%22%20height%3D%2235%22%20rx%3D%227%22%20fill%3D%22%2316a34a%22%2F%3E%3Ctext%20x%3D%2284%22%20y%3D%22159%22%20text-anchor%3D%22middle%22%20font-size%3D%2212%22%20font-weight%3D%22bold%22%20fill%3D%22%23fff%22%3EVICTORIA%3C%2Ftext%3E%3Crect%20x%3D%22188%22%20y%3D%22137%22%20width%3D%22136%22%20height%3D%2235%22%20rx%3D%227%22%20fill%3D%22%23dc6a47%22%2F%3E%3Ctext%20x%3D%22256%22%20y%3D%22159%22%20text-anchor%3D%22middle%22%20font-size%3D%2212%22%20font-weight%3D%22bold%22%20fill%3D%22%23fff%22%3EDERROTA%3C%2Ftext%3E%3Cg%20stroke%3D%22currentColor%22%20stroke-width%3D%221.8%22%20fill%3D%22none%22%20opacity%3D%22.75%22%3E%3Cpath%20d%3D%22M170%2043%20V70%22%2F%3E%3Cpath%20d%3D%22M170%20107%20V121%20H84%20V135%22%2F%3E%3Cpath%20d%3D%22M170%20121%20H256%20V135%22%2F%3E%3Cpath%20d%3D%22M16%20155%20H5%20V24%20H103%22%2F%3E%3Cpath%20d%3D%22M324%20155%20H335%20V24%20H237%22%2F%3E%3C%2Fg%3E%3Cg%20fill%3D%22currentColor%22%20opacity%3D%22.85%22%3E%3Cpath%20d%3D%22M166%2065%20L170%2072%20L174%2065%22%2F%3E%3Cpath%20d%3D%22M80%20130%20L84%20137%20L88%20130%22%2F%3E%3Cpath%20d%3D%22M252%20130%20L256%20137%20L260%20130%22%2F%3E%3Cpath%20d%3D%22M98%2020%20L105%2024%20L98%2028%22%2F%3E%3Cpath%20d%3D%22M242%2020%20L235%2024%20L242%2028%22%2F%3E%3C%2Fg%3E%3Cg%20font-size%3D%229%22%20fill%3D%22currentColor%22%3E%3Ctext%20x%3D%22108%22%20y%3D%22117%22%3EObjetivo%3C%2Ftext%3E%3Ctext%20x%3D%22214%22%20y%3D%22117%22%3ESin%20vidas%3C%2Ftext%3E%3Ctext%20x%3D%229%22%20y%3D%2290%22%3EReiniciar%3C%2Ftext%3E%3Ctext%20x%3D%22298%22%20y%3D%2290%22%3EReiniciar%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+
+>[!question] A105(CE2+CE4) Juega como un detective
+>
+>Tu objetivo es convertirte en un **detective de videojuegos**: explorar algunos juegos arcade clásicos, descubrir cómo funcionan y obtener ideas para diseñar tu propio videojuego en Scratch.
+>
+>**¿Qué tienes que hacer?**
+>
+>1. **Explora las recreativas.** Busca en Internet algunos de los videojuegos clásicos propuestos en el booklet _Misión Detective Arcade_ (Pac-Man, Space Invaders, Frogger, Breakout, etc.). Intenta jugar a varios de ellos en versiones disponibles en el navegador. Marca en el booklet los juegos que has localizado y probado.
+>    
+>2. **Investiga un videojuego.** Elige el que más te haya interesado y completa la [[recursos/Detective_Arcade_actividad.docx|Ficha de detective]]. Observa sus personajes, controles, objetivos y reglas. Presta especial atención al **bucle de juego**: ¿qué hace el jugador?, ¿cómo responde el videojuego?, ¿qué acciones se repiten?, ¿cómo se gana o se pierde y cómo comienza una nueva partida?
+>    
+>3. **De detective a creador/a.** Inspírate en alguna mecánica del videojuego analizado para imaginar tu propio arcade. Completa la última sección del booklet con tus primeras ideas y un pequeño boceto.
+>    
+>**¿Y si no encuentras una versión jugable?**
+>
+>Puedes buscar vídeos de partidas (_gameplays_) para observar cómo funciona el videojuego. Indica en tu ficha si has jugado personalmente o si has realizado el análisis a partir de un vídeo.
+
+
+
+
