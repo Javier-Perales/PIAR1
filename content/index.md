@@ -18,7 +18,7 @@ otra: ñlsfklsdkf
 * **Reto 1.1:** [[sda1-arcade-scratch/R1.1 Personajes y Tablero de juego|Guion técnico, Personajes y Movimiento Cartesiano.]]
 * **Reto 1.2:** [[sda1-arcade-scratch/R1.2 Controles del juego|Controles del juego]]
 * **Reto 1.3:** [[sda1-arcade-scratch/R1.3 Enemigos, Patrullas y Algoritmos Clon|Enemigos, Patrullas y Clones]]
-* **Reto 1.4:** [[sda1-arcade-scratch/Reto 1.4 Documento de Juego|Documento de Juego]]
+* **Reto 1.4:** [[sda1-arcade-scratch/R1.4 Documento de Juego|Documento de Juego]]
 * **Reto 1.5:** Pulido sonoro, estética y licencias Creative Commons.
 * **Reto 1.6:** Gran Gala Arcade y torneo de evaluación inter-grupos.
 
